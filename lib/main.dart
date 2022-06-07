@@ -31,7 +31,7 @@ class _SoccerAppState extends State<SoccerApp> {
         backgroundColor: Color(0xFFFAFAFA),
         elevation: 0.0,
         title: Text(
-          "SOCCERBOARD",
+          "SOCCER BOARD",
           style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,

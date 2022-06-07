@@ -1,4 +1,3 @@
-//before let's add the http package
 import 'dart:convert';
 import 'package:http/http.dart';
 import 'package:api/soccermodel.dart';
