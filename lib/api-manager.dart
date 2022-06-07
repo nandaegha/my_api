@@ -15,7 +15,6 @@ class SoccerApi {
     var body;
 
     if (res.statusCode == 200) {
-      // this mean that we are connected to the data base
       body = jsonDecode(res.body);
       List<dynamic> matchesList = body['response'];
       print("Api service: ${body}"); // to debug
