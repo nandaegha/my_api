@@ -7,7 +7,7 @@ class SoccerApi {
 
   static const headers = {
     'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
-    'x-rapidapi-key': "b05754665c3577b9973045b768d96413"
+    'x-rapidapi-key': "1c164e76eee8d2c54f0492aa57f07809"
   };
 
   Future<List<SoccerMatch>> getAllMatches() async {
